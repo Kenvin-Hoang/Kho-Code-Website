@@ -866,7 +866,7 @@ main{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-bottom: 14px;
   }
   .khungtongsieuphamvasanphamsale .khungtongsieupham{
     width: 516px;
@@ -1302,57 +1302,165 @@ main{
         transform: translateX(-195%);
     }
 }
-.khungnaycxon{
+.vien{
     height: 32px;
     width: 1052px;
+    display: flex;
     margin: 0 auto;
     margin-top: 34px;
 }
-.khungnaycxon ul{
-    width: 100%;
+.vien .caichuthunghiem1{
     height: 32px;
     display: flex;
-    list-style: none;
-}
-ul .hover{
-    height: 32px;
-    width: 94px;
-    font-size: 13px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 94px;
+    justify-content: center;
+    text-transform: capitalize;
     background-color: rgb(255, 114, 76);
-    cursor: pointer;
-}
-ul .nothover{
-    height: 32px;
-    width: 94px;
-    font-size: 13px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-ul .hover a{
-    text-decoration: none;
-    text-transform: capitalize;
-    font-weight: bold;
     color: white;
+    transition: all 0.3s ease;
 }
-ul .nothover a{
+.vien .caichuthunghiem2{
+    height: 32px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 94px;
+    justify-content: center;
     text-transform: capitalize;
-    font-weight: bold;
     color: rgb(102, 102, 102);
     transition: all 0.3s ease, opacity 0.3s ease;
 }
-ul .nothover a:hover{
-    color: rgb(0, 0, 0);
-    transition: all 0.3s ease
+.vien .caichuthunghiem2:hover{
+    color: rgba(0, 0, 0, 0.792);
 }
 
+.vien2{
+    height: 32px;
+    width: 1052px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.vien2 .caichuthunghiem1{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 94px;
+    justify-content: center;
+    text-transform: capitalize;
+    background-color: rgb(255, 114, 76);
+    color: white;
+    transition: all 0.3s ease;
+}
+.vien2 .caichuthunghiem2{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 94px;
+    justify-content: center;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.vien2 .caichuthunghiem2:hover{
+    color: rgba(0, 0, 0, 0.792);
+}
+
+.vien3{
+    height: 32px;
+    width: 1052px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.vien3 .caichuthunghiem1{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 94px;
+    justify-content: center;
+    text-transform: capitalize;
+    background-color: rgb(255, 114, 76);
+    color: white;
+    transition: all 0.3s ease;
+}
+.vien3 .caichuthunghiem2{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 94px;
+    justify-content: center;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.vien3 .caichuthunghiem2:hover{
+    color: rgba(0, 0, 0, 0.792);
+}
+
+.vien4{
+    height: 32px;
+    width: 1052px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.vien4 .caichuthunghiem1{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 94px;
+    justify-content: center;
+    text-transform: capitalize;
+    background-color: rgb(255, 114, 76);
+    color: white;
+    transition: all 0.3s ease;
+}
+.vien4 .caichuthunghiem2{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 94px;
+    justify-content: center;
+    text-transform: capitalize;
+    color: rgb(102, 102, 102);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.vien4 .caichuthunghiem2:hover{
+    color: rgba(0, 0, 0, 0.792);
+}
 footer{
     width: 1535px;
     height: 485px;
@@ -1464,3 +1572,216 @@ footer{
     width: 240px;
     border-radius: 15px;
 }
+.khungbocbenngoai{
+    width: 1530px;
+    height: 530px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .khungvo{
+    height: 516px;
+    width: 1052px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .khungvo .khungvo1{
+    width: 350px;
+    height: 516px;
+  }
+  .khungvo .khungvo1 .khungvobo1{
+    height: 172px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+  }
+  .khungvo .khungvo1 .khungvobo1 .khungvocon1{
+    height: 120px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgba(223, 222, 222, 0.168);
+  }
+  .khungvo .khungvo1 .khungvobo1 .khungvocon1 .iconimg{
+    height: 80px;
+    width: 90px;
+    border: 2px solid rgba(2, 205, 121, 0.875);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  .khungvo .khungvo1 .khungvobo1 .khungvocon1 .iconimg img{
+    height: 60px;
+    width: 60px;
+  }
+  .khungvo .khungvo1 .khungvobo1 .khungvocon1 .khungchuimgicon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 260px;
+  }
+  .khungvo .khungvo1 .khungvobo1 .khungvocon1 .khungchuimgicon h4{
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .khungvo .khungvo1 .khungvobo1 .khungvocon1 .khungchuimgicon p{
+    font-size: 16px;
+  }
+  
+  .khungvo .khungvo1 .khungvobo2{
+    height: 172px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .khungvo .khungvo1 .khungvobo2 .khungvocon1{
+    height: 120px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgba(223, 222, 222, 0.168);
+  }
+  .khungvo .khungvo1 .khungvobo2 .khungvocon1 .iconimg{
+    height: 80px;
+    width: 90px;
+    border: 2px solid rgba(2, 205, 121, 0.875);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  .khungvo .khungvo1 .khungvobo2 .khungvocon1 .iconimg img{
+    height: 60px;
+    width: 60px;
+  }
+  .khungvo .khungvo1 .khungvobo2 .khungvocon1 .khungchuimgicon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 260px;
+  }
+  .khungvo .khungvo1 .khungvobo2 .khungvocon1 .khungchuimgicon h4{
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .khungvo .khungvo1 .khungvobo2 .khungvocon1 .khungchuimgicon p{
+    font-size: 16px;
+  }
+  
+  .khungvo .khungvo2{
+    width: 350px;
+    height: 516px;
+  }
+  .khungvo .khungvo2 .khungvobo1{
+    height: 172px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .khungvo .khungvo2 .khungvobo1 .khungvocon1{
+    height: 120px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgba(223, 222, 222, 0.168);
+  }
+  .khungvo .khungvo2 .khungvobo1 .khungvocon1 .iconimg{
+    height: 80px;
+    width: 90px;
+    border: 2px solid rgba(2, 205, 121, 0.875);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  .khungvo .khungvo2 .khungvobo1 .khungvocon1 .iconimg img{
+    height: 60px;
+    width: 60px;
+  }
+  .khungvo .khungvo2 .khungvobo1 .khungvocon1 .khungchuimgicon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 260px;
+  }
+  .khungvo .khungvo2 .khungvobo1 .khungvocon1 .khungchuimgicon h4{
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;
+  }
+  .khungvo .khungvo2 .khungvobo1 .khungvocon1 .khungchuimgicon p{
+    font-size: 15px;
+    text-align: right;
+  }
+  .khungvo .khungvo2 .khungvobo2{
+    height: 172px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .khungvo .khungvo2 .khungvobo2 .khungvocon1{
+    height: 120px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgba(223, 222, 222, 0.168);
+  }
+  .khungvo .khungvo2 .khungvobo2 .khungvocon1 .iconimg{
+    height: 80px;
+    width: 90px;
+    border: 2px solid rgba(2, 205, 121, 0.875);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  .khungvo .khungvo2 .khungvobo2 .khungvocon1 .iconimg img{
+    height: 60px;
+    width: 60px;
+  }
+  .khungvo .khungvo2 .khungvobo2 .khungvocon1 .khungchuimgicon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 260px;
+    justify-content: end;
+  }
+  .khungvo .khungvo2 .khungvobo2 .khungvocon1 .khungchuimgicon h4{
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;
+  }
+  .khungvo .khungvo2 .khungvobo2 .khungvocon1 .khungchuimgicon p{
+    font-size: 16px;
+  }
+  .khungvo1 img{
+    width: 350px;
+    height: 516px;
+  }
