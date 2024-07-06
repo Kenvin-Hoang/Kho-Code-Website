@@ -1,0 +1,1194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.khungheaderfresh{
+    height: 120px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #3ba66b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungheaderfresh .khungheaderfreshbo{
+   width: 1280px;
+   height: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1{
+    width: 390px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon2{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon3{
+    width: 390px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon2 img{
+    width: 184px;
+    height: 71px;
+    cursor: pointer;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul li a:hover{
+    color: rgb(235, 165, 111);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul .menutha .menudi{
+    display: inline-block;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul .menutha .menudi i{
+    font-size: 12px;
+    transition: all 0.4s ease;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul .menutha:hover .menudi i{
+    transform: rotate(450deg);
+    transition: all 0.4s ease, opacity 0.3s ease;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul .menutha:hover .menudi{
+   color: rgb(235, 165, 111);
+}
+
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul .menutha .khungchuacuaphansanpham{
+    height: 372x;
+    width: 200px;
+    position: absolute;
+    display: none;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul .menutha .khungchuacuaphansanpham a{
+    border-bottom: 1px solid rgba(122, 122, 134, 0.144);
+    display: block;
+    width: auto;
+    color: black;
+    padding: 0 10px;
+    height: 33px;
+    line-height: 33px;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul .menutha .khungchuacuaphansanpham a:hover{
+    color: rgb(229, 110, 12);
+    background-color: rgb(40, 206, 151);
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon1 ul .menutha:hover .khungchuacuaphansanpham{
+    display: block;
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon3 form{
+    height: 45px;
+    width: 232px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(243, 243, 243);
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon3 form input{
+    width: 175px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-left: 10px;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon3 form button{
+    height: 100%;
+    width: 47px;
+    outline: none;
+    border-radius: 100px;
+    border: none;
+    font-size: 25px;
+    background-color: rgb(255, 180, 22);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon3 form button:hover{
+    background-color: rgb(5, 123, 58);
+    transition: all 0.3s ease;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon3 .khungchuaicon i{
+    font-size: 35px;
+    color: white;
+    margin: 0 7px;
+    transition: all 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+}
+.khungheaderfresh .khungheaderfreshbo .khungheaderfreshcon3 .khungchuaicon i:hover{
+    color: rgb(5, 123, 58);
+    transition: all 0.3s ease;
+}
+.imgbaner{
+    margin: 0 auto;
+    width: 1500px;
+    margin-top: 120px;
+}
+.imgbaner img{
+    width: 1500px;
+}
+
+main{
+    margin-top: 20px;
+    height: 3050px;
+}
+.phandanhmuc{
+    width: 1280px;
+    height: 378px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.phandanhmuc .phandanhmuccon1{
+    width: 265px;
+    height: 378px;
+    border: 1px solid rgba(124, 124, 128, 0.245);
+    display: block;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+.phandanhmuc .phandanhmuccon2{
+    width: 950px;
+    height: 378px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.phandanhmuc .phandanhmuccon2 img{
+    width: 950px;
+    height: 378px;
+}
+.phandanhmuc .phandanhmuccon1 .chuah2{
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 187, 53);
+    border-radius: 8px;
+}
+.phandanhmuc .phandanhmuccon1 .chuah2 h2{
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+}
+.phandanhmuc .phandanhmuccon1 .chuaa{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.phandanhmuc .phandanhmuccon1 .chuaa ul{
+    list-style: none;
+    width: 230px;
+    height: 100%;
+}
+.phandanhmuc .phandanhmuccon1 .chuaa ul li{
+    height: 41px;
+    width: 100%;
+    border-bottom: 1px solid rgba(124, 124, 128, 0.168);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.phandanhmuc .phandanhmuccon1 .chuaa ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 1px;
+    color: black;
+    transition: all 0.3s ease;
+}
+.phandanhmuc .phandanhmuccon1 .chuaa ul li i{
+    margin-right: 10px;
+    color: black;
+    transition: all 0.3s ease;
+} 
+.phandanhmuc .phandanhmuccon1 .chuaa ul li:hover i,
+.phandanhmuc .phandanhmuccon1 .chuaa ul li:hover a{
+    color: rgb(128, 187, 53);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+
+.khungconso{
+    height: 160px;
+    width: 1280px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.khungconso .khungconso1{
+    height: 180px;
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+.khungconso .khungconso1 img{
+    height: 180px;
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+    transition: all 0.4s ease;
+}
+.khungconso .khungconso1 .khungchurauthitqua1{
+    text-transform: uppercase;
+    height: 90px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 13px;
+    transform: translateY(-135px) translateX(75px);
+    background: linear-gradient(rgba(0, 128, 0, 0.73),rgba(255, 255, 255, 0.73));
+}
+.khungconso .khungconso1 .khungchurauthitqua1 .khungchuacon{
+    text-align: center;
+    margin-top: 18px;
+    color: white;
+}
+.khungconso .khungconso1 .khungchurauthitqua1 .khungchuacon h2{
+    margin-bottom: 10px;
+    background: linear-gradient(to left, #d4fc79, #96e6a1);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.373);
+}
+
+.khungconso .khungconso1 .khungchurauthitqua2{
+    text-transform: uppercase;
+    height: 90px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 13px;
+    transform: translateY(-135px) translateX(75px);
+    background: linear-gradient(rgba(224, 128, 109, 0.73),rgba(255, 255, 255, 0.73));
+}
+.khungconso .khungconso1 .khungchurauthitqua2 .khungchuacon{
+    text-align: center;
+    margin-top: 18px;
+    color: white;
+}
+.khungconso .khungconso1 .khungchurauthitqua2 .khungchuacon h2{
+    margin-bottom: 10px;
+    background:linear-gradient(to top,#feada6, #f5efef);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.373);
+}
+
+.khungconso .khungconso1 .khungchurauthitqua3{
+    text-transform: uppercase;
+    height: 90px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 13px;
+    transform: translateY(-135px) translateX(75px);
+    background: linear-gradient(rgba(18, 110, 216, 0.718), rgba(255, 255, 255, 0.73));
+}
+.khungconso .khungconso1 .khungchurauthitqua3 .khungchuacon{
+    text-align: center;
+    margin-top: 18px;
+    color: white;
+}
+.khungconso .khungconso1 .khungchurauthitqua3 .khungchuacon h2{
+    margin-bottom: 10px;
+    background: linear-gradient(to top,#f6d365, #fda085);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.373);
+}
+.khungconso .khungconso1:hover img{
+    transform: scale(1.1);
+    transition: all 0.4s ease, opacity 0.3s ease;
+}
+
+.khungmelu{
+    height: 250px;
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 80px;
+}
+.khungmelu .khungmelucon{
+    height: 140px;
+    width: 190px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05);
+}
+.khungmelu .khungmelucon a img{
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(17px) translateY(-83px);
+    transition: all 0.6s ease;
+}
+.khungmelu .khungmelucon h3 a{
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: black;
+    transition: all 0.3s ease;
+}
+.khungmelu .khungmelucon h3 a:hover{
+    color: #fda085;
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungmelu .khungmelucon h3{
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 79px;
+}
+.khungmelu .khungmelucon:hover a img{
+    transform:translateX(17px) translateY(-78px);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.09);
+    transition: all 0.5s ease, opacity 0.3s ease;
+}
+.khunguudai{
+    height: 360px;
+    width: 1280px;
+    border: 2px solid rgb(222, 40, 40);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+}
+.khunguudai .khungsanphamuudai{
+    width: 1200px;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai{
+    width: 230px;
+    height: 290px;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.099);
+    transition: all 0.5s ease;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai:hover{
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.099);
+    transition: all 0.5s ease, opacity 0.3s ease;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .anhsanphamuudai{
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .anhsanphamuudai a img{
+    width: 100%;
+    height: 220px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai:hover .anhsanphamuudai a img{
+    transform: scale(1.1);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .tieudesanphamuudai{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    align-items: center;
+    margin-top: 4px;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .tieudesanphamuudai a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .tieudesanphamuudai a:hover{
+    color: rgb(239, 232, 16);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .chiphisanphamuudai{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .chiphisanphamuudai .giado{
+    color: rgb(241, 78, 24);
+    font-weight: bolder;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .chiphisanphamuudai .giaden{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.541);
+    margin-left: 15px;
+}
+
+.khunguudai .khungsanphamuudai .sanphamuudai .anhsanphamuudai .iconsanphamuudai{
+    height: 40px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .anhsanphamuudai .iconsanphamuudai i{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .anhsanphamuudai .iconsanphamuudai .bx-heart{
+    background-color: rgb(241, 78, 24);
+    cursor: pointer;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .anhsanphamuudai .iconsanphamuudai .bx-cog{
+    background-color: rgb(59, 166, 107);
+    cursor: pointer;
+    margin-left: 20px;
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .anhsanphamuudai .iconsanphamuudai .bx-heart:hover{
+    background-color: rgb(152, 154, 89);
+}
+.khunguudai .khungsanphamuudai .sanphamuudai .anhsanphamuudai .iconsanphamuudai .bx-cog:hover{
+    background-color: rgba(245, 140, 224, 0.493);
+    margin-left: 20px;
+}
+
+.khunguudai .khungsanphamuudai .sanphamuudai:hover .anhsanphamuudai .iconsanphamuudai{
+    transform: translateY(-45px);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khunguudai .uudaihangtuan{
+    height: 87px;
+    width: 410px;
+    position: absolute;
+    transform: translateY(-180px);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.063);
+    background-color: white;
+}
+.khunguudai .uudaihangtuan img{
+    height: 40px;
+    width: 40px;
+}
+.khunguudai .uudaihangtuan h2 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 35px;
+    background: linear-gradient(#ff0844, #ffb199);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease;
+}
+.khunguudai .uudaihangtuan h2 a:hover{
+    transition: all 0.3s ease, opacity 0.3s ease;
+    background: linear-gradient(#ff0844, #ffb199);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.khungchuatieude{
+    height: 45px;
+    width: 1280px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.khungchuatieude .khungchuabentrai{
+    width: 350px;
+    height: 45px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.121) ;
+}
+.khungchuatieude .khungchuabenphai{
+    width: 220px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 187, 53);
+    border-radius: 50px;
+}
+.khungchuatieude .khungchuabenphai h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+.khungchuatieude .khungchuabentrai ul{
+    display: flex;
+    width: 350px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.khungchuatieude .khungchuabentrai ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 13px;
+}
+
+.khungngoaisanpham{
+    height: 310px;
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat{
+    width: 305px;
+    height: 295px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://png.pngtree.com/background/20230413/original/pngtree-fruit-border-poster-picture-image_2422718.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: right;
+    border-radius: 20px;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai{
+    width: 250px;
+    height: 250px;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuachu{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuachu h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: green;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuacacchu ul{
+    list-style: none;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuacacchu ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: black;
+    transition: all 0.3s ease;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuacacchu ul li{
+    margin-bottom: 15px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuacacchu ul li:hover i,.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuacacchu ul li:hover a{
+    color: rgb(255, 98, 0);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuacacchu ul li i{
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuabutton{
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    background-color: red;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuabutton a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    text-transform: capitalize;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat .khungthuhai .khungnaychuabutton:hover{
+    background-color: yellowgreen;
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthuimg{
+    width: 305px;
+    height: 300px;
+    border-radius: 20px;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthuimg img{
+    width: 305px;
+    height: 300px;
+    border-radius: 20px;
+}
+.khungngoaisanpham .khungnayflipbox{
+    width: 305px;
+    height: 300px;
+    background-color: transparent;
+    perspective: 1000px;
+}
+.khungnayflipbox .khungnaycunglaflipbox{
+    width: 305px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.khungnayflipbox:hover .khungnaycunglaflipbox{
+    transform:  rotateX(180deg);
+}
+.khungthuimg, .khungthunhat{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthuimg{
+    background-image: url(https://file.hstatic.net/1000301274/article/1_e55e6fc3a45142448ecd3c2e4a8a8bfd_c7def126fdd7489f8258c44cfd12a616.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.khungngoaisanpham .khungnayflipbox .khungnaycunglaflipbox .khungthunhat{
+    transform: rotateX(180deg);
+}
+
+.khungngoaisanpham .khungtrongsanpham2{
+    width: 960px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong{
+    width: 225px;
+    height: 300px;
+    border: 1px solid rgb(115, 115, 115, 0.13);
+    border-radius: 20px;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .anhsanphamkhungtrong{
+    width: 100%;
+    height: 225px;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .anhsanphamkhungtrong a img{
+    width: 100%;
+    height: 225px;
+    transition: all 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong:hover .anhsanphamkhungtrong a img{
+    transform: scale(1.1);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .tieudesanphamkhungtrong{
+    width: 100%;
+    height: 70px;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .tieudesanphamkhungtrong a{
+    width: 225px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: black;
+    transition: all 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .tieudesanphamkhungtrong a:hover{
+    transition: all 0.3s ease, opacity 0.3s ease;
+    color: rgb(239, 232, 16);
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .tieudesanphamkhungtrong span{
+    width: 225px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(241, 78, 24);
+    font-weight: bolder;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .anhsanphamkhungtrong .iconsanphamkhungtrong{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .anhsanphamkhungtrong .iconsanphamkhungtrong i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50px;
+    color: white;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .anhsanphamkhungtrong .iconsanphamkhungtrong .bx-heart{
+    background-color: rgb(241, 78, 24);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .anhsanphamkhungtrong .iconsanphamkhungtrong .bx-cog{
+    background-color: rgb(59, 166, 107);
+    margin-left: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong:hover .anhsanphamkhungtrong .iconsanphamkhungtrong{
+   transition: all 0.3s ease, opacity 0.3s ease;
+   transform: translateY(-45px);
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .anhsanphamkhungtrong .iconsanphamkhungtrong .bx-heart:hover{
+    background-color: rgb(152, 154, 89);
+    transition: all 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .sanphamkhungtrong .anhsanphamkhungtrong .iconsanphamkhungtrong .bx-cog:hover{
+    background-color: rgba(245, 140, 224, 0.493);
+    transition: all 0.3s ease;
+}
+
+.khungngoaisanpham .khungtrongsanpham2 .thanhchuyen1{
+    height: 303px;
+    width: 30px;
+    background-color: rgba(0, 128, 0, 0.255);
+    position: absolute;
+    z-index: 10;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50px);
+    transition: all 0.3s ease;
+    left: 0;
+}
+.khungngoaisanpham .khungtrongsanpham2 .thanhchuyen1:hover{
+    background-color: rgba(0, 128, 0, 0.47);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .thanhchuyen1:hover i{
+    color: rgb(245, 208, 139);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .thanhchuyen1 i{
+    font-size: 30px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2:hover .thanhchuyen1{
+    transform: translateX(0px);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+
+.khungngoaisanpham .khungtrongsanpham2 .thanhchuyen2{
+    height: 303px;
+    width: 30px;
+    background-color: rgba(0, 128, 0, 0.255);
+    position: absolute;
+    z-index: 10;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    transform: translateX(50px);
+    right: 0;
+}
+.khungngoaisanpham .khungtrongsanpham2 .thanhchuyen2:hover{
+    background-color: rgba(0, 128, 0, 0.47);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .thanhchuyen2:hover i{
+    color: rgb(245, 208, 139);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2 .thanhchuyen2 i{
+    font-size: 30px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.khungngoaisanpham .khungtrongsanpham2:hover .thanhchuyen2{
+    transform: translateX(0px);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungblog{
+    height: 400px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.khungblog .khungblogcon{
+    height: 390px;
+    width: 360px;
+    border: 1px solid rgba(0, 0, 0, 0.134);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.khungblog .khungblogcon:hover{
+    box-shadow: 0 1px 5px 1px rgba(101, 99, 99, 0.141);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungblog .khungblogcon .khungblogchuaanh{
+    height: 205px;
+    width: 360px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.khungblog .khungblogcon .khungblogchuaanh a img{
+    height: 205px;
+    width: 360px;
+}
+.khungblog .khungblogcon .khungblogchuachu{
+    height: 185px;
+    width: 360px;
+}
+.khungblog .khungblogcon .khungblogchuachu h3{
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.khungblog .khungblogcon .khungblogchuachu h3 a:hover{
+    color: green;
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungblog .khungblogcon .khungblogchuachu h3 a{
+    margin: 0 20px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.khungblog .khungblogcon .khungblogchuachu p{
+    text-align: center;
+    margin: 0 11px;
+    margin-bottom: 10px;
+}
+.khungblog .khungblogcon .khungblogchuachu .buttonrieng{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+}
+.khungblog .khungblogcon .khungblogchuachu .buttonrieng a{
+    height: 30px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(137, 187, 62);
+    border-radius: 20px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+.khungblog .khungblogcon .khungblogchuachu .buttonrieng a:hover{
+    background-color: green;
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungblog .thanhra{
+    height: 390px;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    transform: translateX(-40px);
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.255);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.khungblog .thanhra:hover{
+    background-color: rgba(0, 128, 0, 0.588);
+    transition: all 0.3s ease, opacity 0.3s ease;
+    box-shadow: 2px 0 5px 1px rgba(0, 0, 0, 0.318);
+}
+.khungblog .thanhvao:hover{
+    background-color: rgba(0, 128, 0, 0.588);
+    transition: all 0.3s ease, opacity 0.3s ease;
+    box-shadow: -2px 0 5px 1px rgba(0, 0, 0, 0.318);
+}
+.khungblog .thanhra i, .khungblog .thanhvao i{
+    font-size: 18px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.khungblog .thanhra:hover i, .khungblog .thanhvao:hover i{
+    font-size: 18px;
+    color: rgb(245, 208, 139);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungblog .thanhvao{
+    height: 390px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    transform: translateX(40px);
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.255);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.khungblog:hover .thanhra{
+    transform: translateX(0px);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungblog:hover .thanhvao{
+    transform: translateX(0px);
+    transition: all 0.3s ease, opacity 0.3s ease;
+}
+.khungtieude{
+    height: 30px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 30px auto;
+}
+.khungtieude h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 0 10px;
+    z-index: 10;
+    color: green;
+}
+.khungtieude .line{
+    height: 2px;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.khungphanket{
+    height: 454px;
+    width: 1280px;
+    background-color: rgb(59, 166, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.khungphanket .khungconphanket{
+    height: 454px;
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.khungphanket .khungconphanket .khungconthunhat{
+    height: 454px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.khungphanket .khungconphanket .khungconthuhai{
+    height: 454px;
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.khungphanket .khungconphanket .khungconthuba{
+    height: 454px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.khungphanket .khungconphanket .khungconthunhat .vungchua1{
+    height: 155px;
+    width: 100%;
+}
+.khungphanket .khungconphanket .khungconthunhat .vungchua1 h4{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.khungphanket .khungconphanket .khungconthunhat .vungchua1 span{
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin: 30px 10px 20px 10px;
+    color: white;
+}
+.khungphanket .khungconphanket .khungconthuhai .vungchua2{
+    height: 410px;
+    width: 100%;
+}
+.khungphanket .khungconphanket .khungconthuba .vungchua3{
+    height: 125px;
+    width: 100%;
+}
+.khungphanket .khungconphanket .khungconthunhat .vungchua1 .khungnaycanchinhthoi{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.khungphanket .khungconphanket .khungconthunhat .vungchua1 .khungnaycanchinhthoi .khungemail{
+    display: flex;
+    justify-content: space-between;
+    width: 335px;
+    height: 42px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.khungphanket .khungconphanket .khungconthunhat .vungchua1 .khungnaycanchinhthoi .khungemail input{
+    height: 42px;
+    width: 230px;
+    outline: none;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.khungphanket .khungconphanket .khungconthunhat .vungchua1 .khungnaycanchinhthoi .khungemail button{
+    height: 42px;
+    width: 90px;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(255, 180, 22);
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+.khungphanket .khungconphanket .khungconthuhai .vungchua2 .khungnaychualogo{
+   display: flex;
+   justify-content: center;
+}
+.khungphanket .khungconphanket .khungconthuhai .vungchua2 .khungnaychuaspan{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 70px 13px 70px;
+    color: white;
+}
+.khungphanket .khungconphanket .khungconthuhai .vungchua2 .khungnaychuaimg{
+    display: flex;
+    justify-content: center;
+}
+.khungphanket .khungconphanket .khungconthuba .vungchua3 h4{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.khungphanket .khungconphanket .khungconthuba .vungchua3 ul{
+    list-style: none;
+}
+.khungphanket .khungconphanket .khungconthuba .vungchua3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.khungphanket .khungconphanket .khungconthuba .vungchua3 ul li a:hover{
+    color: rgba(164, 235, 24, 0.545);
+}
+.khungphanket .khungconphanket .khungconthuba .vungchua3 ul li{
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+footer{
+    background-color: rgb(59, 166, 107);
+    width: 100%;
+}
